@@ -6126,7 +6126,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var BankDetailsService = /** @class */ (function () {
     function BankDetailsService(http) {
         this.http = http;
-        this.server = "/banks?city=";
+        this.server = "https://vast-shore-74260.herokuapp.com/banks?city=";
     }
     BankDetailsService.prototype.getBank = function (location) {
         console.log("Testing", this.server + location);
